@@ -1,0 +1,90 @@
+.social-icons-row,
+.footer-social-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-social-icon {
+  background: #223d5a;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  opacity: 0.91;
+  transition: background 0.18s, color 0.18s, transform 0.18s;
+  text-decoration: none;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  background: #0066cc;
+  color: #fff;
+  transform: scale(1.10);
+}
+
+.social-icon {
+  background: #0066cc;
+  color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 0.18s cubic-bezier(.38,1.5,.7,1), box-shadow 0.18s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.social-icon:hover {
+  transform: scale(1.19) translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.16);
+  z-index: 2;
+}
+
+/* Footer links */
+.footer-link {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+  opacity: 0.93;
+  text-decoration: none;
+  transition: color 0.18s;
+  font-size: 1rem;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #0066cc;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Inline footer links for Privacy Policy | Terms */
+.footer-link-inline {
+  display: inline;
+  color: #c3d2e5;
+  opacity: 0.93;
+  text-decoration: none;
+  transition: color 0.18s;
+  font-size: 1rem;
+}
+
+.footer-link-inline:hover,
+.footer-link-inline:focus {
+  color: #0066cc;
+  opacity: 1;
+  text-decoration: underline;
+}

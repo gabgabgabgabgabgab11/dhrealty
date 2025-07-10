@@ -1,0 +1,20 @@
+.hero-section {
+  /* The styles are already inlined above, but you can put them here if you want */
+  width: 100vw;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
